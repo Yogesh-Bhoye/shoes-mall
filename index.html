@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Mall</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Shoe Mall</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teams">Shoes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ <!-- Header Section -->
+ <header id="home" class="bg-primary text-white text-center py-5">
+    <div class="container">
+        <h1>Welcome to the Shoe Mall</h1>
+        <p class="lead">Your one-stop destination for Shoes updates, news, and more!</p>
+        <a href="#about" class="btn btn-light btn-lg">Learn More</a>
+    </div>
+</header>
+
+<!-- Carousel Section -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center">Highlights</h2>
+        <div id="cricketCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="sh1.jpg" class="d-block w-100" alt="Match 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>shoes image</h5>
+                        <p>Best Quality shoes.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="sh1.jpg" class="d-block w-100" alt="Match 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>shoes image</h5>
+                        <p>Best Quality shoes.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="sh1.jpg"d-block w-100" alt="Match 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>shoes image</h5>
+                        <p>Best Quality shoes.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#cricketCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#cricketCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Shoes</h2>
+                <p>Pick up shoes/slippers made of natural materials/fabrics like leather, cotton and wool. These tend to be lightweight, breathable and durable. Avoid footwear mistake which incorporates cheap, shoddy materials like thin suede, low-grade leather or plastic.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="sh1.jpg" alt="Cricket Image" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Accordion Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center">FAQs</h2>
+        <div class="accordion mt-4" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What is called a shoe?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        A shoe is an item of footwear intended to protect and comfort the human foot. Though the human foot can adapt to varied terrains and climate conditions, it is vulnerable, and shoes provide protection. Form was originally tied to function, but over time, shoes also became fashion items.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        What is the history of shoes?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        The earliest known pair of shoes is believed to date back to 7000-8000 BCE and was made from bark - a natural material. The earliest known shoes made from leather are believed to date back to 3500 BCE. Shoes, specifically thong sandals, were depicted in ancient Egyptian paintings and murals.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Who introduced shoes?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        The Romans and Greeks invented shoes and sandals, but credited with the first shoe, the Pharaoh's Sandal, had a long peaked toe. The Romans patented the sandal and began wearing them around fifteen hundred years ago.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Teams Section -->
+<section id="teams" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">Top Shoes Brands</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Team 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Black and Blue Shoes</h5>
+                        <p class="card-text"> Black and blue shoes are a fantastic choice. They offer versatility, style, and a touch of sophistication that can elevate any outfit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Team 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Blue Shoes</h5>
+                        <p class="card-text">Blue shoes give your look a relaxed and effortless appeal. Blue shoes compliment yellow, green, neutrals, and brown. Blue looks great with warmer tones since they are on the opposite side of the color wheel.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRri27r58IbcgG0LKWUcEqFogcb-Tgr393B8Q&s" class="card-img-top" alt="Team 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Black Shoes</h5>
+                        <p class="card-text"> Black sneakers effortlessly match every color and pattern in your wardrobe. Similar to how to style white shoes, the neutral hue of a black shoe makes it the perfect foundation for any outfit, from bold prints to subtle pastels.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Toast Section -->
+<section class="py-5">
+    <div class="container text-center">
+        <h2>Get Updates</h2>
+        <button type="button" class="btn btn-primary mt-3" id="showToast">Show Toast</button>
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <strong class="me-auto">Shoes Mall</strong>
+                    <small>Just now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Welcome to the shoes mall.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Contact Us</h2>
+        <form class="mt-4">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Write your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+</section>
+ <!-- Footer -->
+ <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Shoes Mall. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.getElementById('showToast').addEventListener('click', function () {
+        var toast = new bootstrap.Toast(document.getElementById('liveToast'));
+        toast.show();
+    });
+</script>
+<!-- Static App Form Collection Script -->
+<script src="https://static.app/js/static-forms.js" type="text/javascript"></script>
+
+<script src="https://static.app/js/static.js" type="text/javascript"></script>
+</body>
+</html>
+
+
